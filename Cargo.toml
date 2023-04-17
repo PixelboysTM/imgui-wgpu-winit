@@ -1,15 +1,21 @@
 [package]
 name = "imgui-wgpu-winit"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2021"
+license = "MIT/Apache-2.0"
+description = "imgui-rs viewports supported renderer/backend using imgui-wgpu-rs and winit"
+homepage = "https://github.com/PixelboysTM/imgui-wgpu-winit"
+repository = "https://github.com/PixelboysTM/imgui-wgpu-winit"
+readme = "README.md"
+keywords = ["imgui", "wgpu", "viewports", "docking", "immediate-mode"]
+categories = ["gui", "rendering"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 imgui = {version = "^0.11.0", features = ["docking"]}
-imgui-wgpu = {git = "https://github.com/Yatekii/imgui-wgpu-rs.git" }
+imgui-wgpu = {git = "https://github.com/Yatekii/imgui-wgpu-rs.git", version = "0.23.0" }
 winit = "^0.27.2"
-env_logger = "0.10.0"
 wgpu = "0.15.1"
 pollster = "0.3.0"
 raw-window-handle = "0.5.2"
