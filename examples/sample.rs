@@ -13,8 +13,6 @@ use winit::{
 fn main() {
     println!("Hello, world!");
 
-    env_logger::init();
-
     let event_loop = EventLoop::new();
 
     let instance = wgpu::Instance::new(wgpu::InstanceDescriptor {
