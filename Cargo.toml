@@ -14,7 +14,7 @@ categories = ["gui", "rendering"]
 
 [dependencies]
 imgui = {version = "^0.11.0", features = ["docking"]}
-imgui-wgpu = {git = "https://github.com/Yatekii/imgui-wgpu-rs.git", version = "0.23.0" }
+imgui-wgpu = {git = "https://github.com/Yatekii/imgui-wgpu-rs.git" }
 winit = "^0.27.2"
 wgpu = "0.15.1"
 pollster = "0.3.0"
